@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Program{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int amount = scanner.nextInt();
+        int payment = (10/100)*amount;
+        int remaining = amount - payment;
+        int i;
+        for(i = 1;i<4;i++){
+         System.out.println("Month "+ i);
+        
+         System.out.println("Payment: 10% of "+amount+" = "+payment);
+        
+         System.out.println("remaining amount: "+ remaining);
+    
+        }
+    
+        
+        
+    }
+  } 
